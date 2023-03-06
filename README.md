@@ -1,53 +1,52 @@
 # Collection-Completions
-一个可以快速插入你曾经收藏的代码的代码提示插件
+A code completion plugin that can quickly insert code snippets that you have collected before
 
-## 介绍
+[中文文档](README-ZH.md)
 
-这个项目提供了一个代码提示功能，它能够在编写代码时插入你曾经收藏的代码。这个插件可以大大提高代码的编写效率，并降低因为语法错误而带来的麻烦。
+## Introduction
 
-这个插件的主要特点和功能包括：
+This project provides a code completion feature that allows you to insert code snippets that you have collected before while writing code. This plugin can greatly improve the efficiency of writing code and reduce the trouble caused by syntax errors.
 
-- 提供了丰富的代码提示信息
-- 支持多种编程语言
-- 灵活的配置选项，可以根据用户需求进行调整
+The main features and functions of this plugin include:
 
-## 特点
+- Provide rich code completion information
+- Support multiple programming languages
+- Flexible configuration options, which can be adjusted according to user needs
 
-- 提供了丰富的代码提示信息
-- 支持多种编程语言
-- 灵活的配置选项，可以根据用户需求进行调整
+## Features
 
-## 安装
-点击以下链接安装插件：
+- Provide rich code completion information
+- Support multiple programming languages
+- Flexible configuration options, which can be adjusted according to user needs
 
+## Installation
+Click on the following link to install the plugin:
+https://marketplace.visualstudio.com/items?itemName=Benny.collection-completions
 
-## 使用
+## Usage
 
-这个插件提供了丰富的代码提示信息，只需要在编写代码时输入关键字，就会出现对应的提示。例如，当你在 JavaScript 中输入 `if`，你就会看到一个代码提示，其中包含了 `if` 语句的语法结构和用法说明。
+This plugin provides rich code completion information, you only need to enter keywords when writing code, and you will see corresponding prompts. For example, when you enter `if` in JavaScript, you will see a code prompt that contains the syntax structure and usage description of the `if` statement.
 
-部署 API 项目: xxxxx
-部署后台管理项目: xxxxx
+Deploy API project: xxxxx
+Deploy backend management project: xxxxx
 
-插件提供的代码都可以通过在 collection-completions 管理后台编辑来进行配置。
+The codes provided by the plugin can be configured by editing in collection-completions management background.
 
-## 配置
-设置的你 collection-completions 的 API 地址，例如：`http://localhost:8080`
+## Configuration
+Set your collection-completions API address, for example: `http://localhost:8080`
 ```json
 "collection-completions.api": "http://localhost:8080"
-```
+``` 
+Then you can use it.
 
-## 支持的语言
-
-这个插件支持以下编程语言：
+## Supported languages
+This plugin supports the following programming languages:
 
 - JavaScript
 - TypeScript
 
-## 贡献
+## Contribution
+If you have any suggestions or comments, please feel free to submit an issue or PR.
 
-如果你有任何建议或意见，欢迎提交 issue 或 PR。
-
-## 许可证
-
-这个项目使用 MIT 许可证
-
+##  License
+This project uses MIT license
